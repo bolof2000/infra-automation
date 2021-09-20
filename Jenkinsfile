@@ -10,7 +10,7 @@ pipeline{
 
        steps{
 
-        git credentialsId: 'GIT_HUB_CREDENTIALS',url:'https://github.com/bolof2000/CICD-Docker-kubernetes.git'
+        git credentialsId: 'GIT_HUB_CREDENTIALS',url:'https://github.com/bolof2000/infra-automation.git'
     }
         }
      stage("terraform init"){ 
